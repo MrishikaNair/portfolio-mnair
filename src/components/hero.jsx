@@ -57,7 +57,7 @@ const Hero =() =>{
                 </p>
             </div>
             <div>
-                <img src={Profilephoto} alt="Profile" className="profile-img" style={{marginTop:'80px', boxShadow: '0px 4px 10px rgba(0, 0, 0, 0.3)'}}/>
+                <img src={Profilephoto} alt="Profile" className="profile-img" style={{marginTop:'80px',height:'100px', boxShadow: '0px 4px 10px rgba(0, 0, 0, 0.3)'}}/>
             </div>
         </div>
       </section>
@@ -81,7 +81,7 @@ const Hero =() =>{
             <div className="scrollable-section" style={{ flex: '1', maxHeight: '170px', paddingLeft: '20px' }}>
             <ul style={{ listStyleType: 'disc',  fontSize: '30px', color: '#333', paddingTop:'20px',addingLeft: '20px'}}>
                 <li>08/24: Joined Intuitive Computing Lab at Johns Hopkins as a research assistant.</li>
-                <li>06/24: Published research as the first author in HCI International 2024: Geriatric accessible medicine packaging.</li>
+                <li>06/24: Published research as the first author in HCI International 2024</li>
                 <li>05/24: Graduated from IIIT Delhi in 2024, with distinction merit!</li>
                 <li>03/24: Accepted to Johns Hopkins University as a full-time grad student.</li>
                 <li>12/23: Joined iWayPlus as a Software developer intern.</li>
@@ -136,7 +136,7 @@ const Hero =() =>{
                         </p>
                     </div>
                     <div className="projectimage" style={{width:'30%'}}>
-                        <img src={RA} alt="RA" style={{height:'120%', marginTop:'-30px'}}/>
+                        <img src={RA} alt="RA" style={{height:'90%', marginTop:'-30px'}}/>
                     </div>
                 </div>
                 <hr style={{ width: '100%', border: '1px solid #B3B5B7', marginLeft:'20px', marginTop:'50px' }} />
