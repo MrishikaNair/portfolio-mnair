@@ -1,0 +1,252 @@
+/* TopBar.css */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
+
+body, html {
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff; /* Set entire page background to white */
+    font-family: Arial, sans-serif;
+    color: #333;
+  }
+  
+  .App {
+    margin: 0; /* Remove margin on the main container */
+  }
+  
+  /* Profile Section */
+  .profile {
+    text-align: left;
+    margin-bottom: 30px;
+    background-color: #f0f4f8; /* Light blue background color for profile section */
+    padding: 60px; /* Section padding */
+    border-radius: 8px; /* Optional: Rounded corners */
+  }
+  
+  .profile .name {
+    padding-top: 100px;
+    font-size: 5.5rem;
+    font-weight: 600;
+    margin-bottom: 10px;
+    font-family: 'Poppins', sans-serif;
+
+    /* Gradient text */
+    background: linear-gradient(to bottom, #2b3967, rgba(159, 189, 241, 0.4)); /* Top-to-bottom gradient */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    color: transparent;
+  }
+  
+  .profile .intro {
+    max-width: 930px;
+    margin-top: 20px;
+    padding-left:50px;
+    font-size: 1.3rem;
+    line-height: 1.6;
+    color: #666;
+
+  }
+  .profile .text_profile {
+    margin-top: 20px;
+    padding-left:50px;
+    font-size: 1.2rem;
+    line-height: 1.6;
+    color: #666;
+
+  }
+  
+  .profile .profile-img {
+    width: auto;
+    height: 650px;
+    border: 2px solid #ddd;
+  }
+  
+  /* Milestones Section */
+  .milestones {
+    background-color: #ffffff; /* Gray background color for milestones section */
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 100px;
+  }
+  
+  .milestones h2 {
+    font-size: 3.5rem;
+    font-weight:500;
+    color: #2b3967;
+    margin-bottom: 15px;
+  }
+  
+  .milestones ul {
+    list-style-type: disc;
+    padding: 0;
+  }
+  
+  .milestones li {
+    font-size: 1.2rem;
+    color: #555;
+    margin-bottom: 10px;
+    line-height: 0.08;
+    font-weight:'350',
+  }
+
+  .scrollable-section {
+    flex: 1;
+    max-height: 170px;
+    overflow-y: scroll;
+    padding-left: 20px;
+    scrollbar-width: thin; /* For Firefox */
+    scrollbar-color: #A3B4D2 transparent; /* For Firefox */
+}
+
+  /* Custom Scrollbar for Chrome, Safari, and Edge */
+  .scrollable-section::-webkit-scrollbar {
+      width: 12px; /* Width of the scrollbar */
+  }
+
+  .scrollable-section::-webkit-scrollbar-track {
+      background: transparent; /* Background of the scrollbar track */
+  }
+
+  .scrollable-section::-webkit-scrollbar-thumb {
+      background-color: #A3B4D2; /* Color of the scrollbar thumb */
+      border-radius: 10px; /* Rounded edges for the scrollbar thumb */
+  }
+
+  .scrollable-section::-webkit-scrollbar-thumb:hover {
+      background-color: #8995AA; /* Color of the scrollbar thumb on hover */
+  }
+
+
+  
+.scroll-container {
+  height: 400px; /* Adjust height as needed */
+  overflow-y: scroll; /* Enable vertical scrolling */
+  position: relative;
+  scrollbar-width: thin; /* Firefox - thin scrollbar */
+}
+
+/* Hide scrollbar on WebKit browsers */
+.scroll-container::-webkit-scrollbar {
+    width: 0; /* Hide scrollbar width */
+}
+
+/* Hide scrollbar entirely when hovering over the rocket */
+#rocket:hover + .scroll-container,
+.scroll-container:hover {
+    overflow-y: hidden;
+}
+
+.rocket-container {
+  height: 800px; /* Larger than .scroll-container to enable scrolling */
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  position: relative;
+}
+
+  #rocket {
+      padding-top: 30px;
+      padding-left: 30px;
+      height:230px;
+      position: relative;
+      transition: transform 0.06s ease-out;
+  }
+  #cloud{
+    height:150px;
+  }
+  
+  /* Research Experience Section */
+  .research {
+    padding-left:150px;
+    margin-bottom: 60px;
+    border-radius: 8px;
+  }
+  
+  .research h2 {
+    font-size: 3.5rem;
+    font-weight:500;
+    color: #2b3967;
+    margin-bottom: 85px;
+  }
+
+  .research p{
+    font-size: 1.2rem;
+    color: #555;
+    padding-top:20px;
+  }
+  
+  /* Projects Section */
+  .projects {
+    padding-left: 90px;
+    padding-right: 90px;
+    border-radius: 10px;
+  }
+  
+  .gradsection {
+    background: linear-gradient(to bottom, #F3F4F8, #FCF2EE);
+    padding: 70px;
+    border-radius: 30px;
+  }
+  .projects h2 {
+    font-size: 3.5rem;
+    font-weight:500;
+    color: #333;
+    margin-bottom: 100px;
+    margin-top:30px;
+    padding-left: 20px;
+    
+  }
+  
+  .project {
+    display: flex; /* Use flexbox for vertical alignment */
+    flex-direction: row; /* Stack children vertically */
+    padding: 40px;
+    gap: 80px;
+  }
+  .projectindex{
+    font-size: 60px;
+  }
+  
+  .project h3 {
+    font-size: 1.7rem;
+    color: #4a4a4a;
+    margin-bottom: 30px;
+  }
+  
+  .project p {
+    font-size: 1.2rem;
+    color: #666;
+    line-height: 1.6;
+  }
+  .affiliations {
+    padding-left:120px;
+    padding-right:120px;
+    margin-bottom: 60px;
+    border-radius: 8px;
+  }
+
+  .affiliations h2 {
+    font-size: 3.5rem;
+    font-weight:500;
+    color: #333;
+    margin-bottom: 85px;
+  }
+
+  .research p{
+    font-size: 1.2rem;
+    color: #555;
+    padding-top:20px;
+  }
+  
+  .outlinedText{
+    text-align: center;
+    font-size: 188px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    color: transparent; /* Removes text fill */
+    -webkit-text-stroke: 2px #c5d2e8; /* Adds outline for Webkit browsers *//* Adds outline for other browsers */
+    display: inline-block;
+    vertical-align: bottom; /* Aligns text to the bottom of the container */
+    margin: 0; /* Removes any default margin */
+    padding: 0; /* Removes any default padding */
+  };

@@ -1,0 +1,38 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap');
+
+
+:root{
+  --primary-dark:#16577B;
+  --primary-light:#F7FAFD;
+}
+
+@layer base{
+  html{
+    @apply scroll-smooth
+  }
+  body{
+
+    @apply font-[Inter] bg-[#F7FAFD];
+  }
+  li{
+    @apply p-4 text-sm;
+  }
+  button{
+    @apply px-8 py-3 text-white w-full h-14 bg-[#3F86AD] font-bold border-[#7EAECE] shadow-lg;
+    border-radius: 1.75rem; /* Custom border radius (12px) */
+    font-size: 1.5rem; /* Custom text size (20px) */
+  }
+  h2{
+    @apply text-xl text-[#3F86AD] h-12;
+  }
+  h3{
+    @apply text-xl font-bold
+  }
+  .text-primary-dark {
+    color: var(--primary-dark); /* Use the CSS variable */
+  }
+}
+
