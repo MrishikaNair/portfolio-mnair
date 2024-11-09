@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.e1e3629e.css",
+    "main.js": "/portfolio/static/js/main.af8f8688.js",
+    "static/media/VR_demo.mp4": "/portfolio/static/media/VR_demo.fa98500f92299d32aacb.mp4",
+    "static/media/profile.JPG": "/portfolio/static/media/profile.da0d7771013d9f0be047.JPG",
+    "static/media/soul.png": "/portfolio/static/media/soul.0bdff676ae5e312fbef4.png",
+    "static/media/medicinedesign.png": "/portfolio/static/media/medicinedesign.f97dc39065b26907f803.png",
+    "static/media/compattend.png": "/portfolio/static/media/compattend.2539f558de0a0d2579d1.png",
+    "static/media/solid.png": "/portfolio/static/media/solid.8dfef5beed97d1f5bdaa.png",
+    "static/media/skyl.png": "/portfolio/static/media/skyl.ef1093bd1b833fd6b16e.png",
+    "static/media/ra.png": "/portfolio/static/media/ra.8ff52035feef918bb690.png",
+    "static/media/jhu.png": "/portfolio/static/media/jhu.b97e1b407041a3824cea.png",
+    "static/media/iiitd.png": "/portfolio/static/media/iiitd.31d9bfaee35f55c14b2c.png",
+    "static/media/research.png": "/portfolio/static/media/research.c5e0c16139f23ccf2cfa.png",
+    "static/media/rocket.png": "/portfolio/static/media/rocket.3aac66201fe154681a4a.png",
+    "static/media/malone.png": "/portfolio/static/media/malone.2cc12a5235ec9691891d.png",
+    "static/media/cloud.png": "/portfolio/static/media/cloud.636ad305f79cd7e1b8db.png",
+    "static/media/aid.png": "/portfolio/static/media/aid.7db8d0dbbe6df36f8acd.png",
+    "static/media/weave.png": "/portfolio/static/media/weave.adaaf1537988f82b5b65.png",
+    "static/media/cilab.png": "/portfolio/static/media/cilab.9fc2b2cb8b8f5be7c93c.png",
+    "index.html": "/portfolio/index.html",
+    "main.e1e3629e.css.map": "/portfolio/static/css/main.e1e3629e.css.map",
+    "main.af8f8688.js.map": "/portfolio/static/js/main.af8f8688.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e1e3629e.css",
+    "static/js/main.af8f8688.js"
+  ]
+}
