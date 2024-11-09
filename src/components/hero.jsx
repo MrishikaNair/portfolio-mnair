@@ -1,5 +1,6 @@
 import React from "react";
 import '../styles/topbar.css';
+
 import Profilephoto from '../images/profile.JPG'
 import RA from '../images/ra.png'
 import Rocket from '../images/rocket.png'
@@ -20,6 +21,7 @@ import inno from '../images/inno.png'
 import weave from '../images/weave.png'
 import videoSource from '../images/VR_demo.mp4'
 
+
 const Hero =() =>{
     window.addEventListener('scroll', () => {
         const scrollPosition = window.scrollY; // Current scroll position
@@ -32,10 +34,10 @@ const Hero =() =>{
     return(
     <div className="App">
       {/* Profile Section */}
-      <section className="profile" style={{ display: 'flex', flexDirection: 'column', textAlign: 'left', padding: '50px', paddingBottom:'10px' }}>
-        <div className="flex flex-col md:flex-row items" style={{ display: 'flex-col', justifyContent: 'space-between', 
+      <section className="profile" style={{ display: 'flex', flexDirection: 'column', textAlign: 'left', padding: '60px', paddingBottom:'10px' }}>
+        <div className="flex flex-col md:flex-row items" style={{ display: 'flex-col', justifyContent: 'space-between',gap:'90px' ,
             fontSize: '20px', paddingLeft:'50px', paddingRight:'100px', width: '100%'}}>
-            <div style={{  width:'850px' }}>
+            <div style={{  width:'60%' }}>
                 <h1 className="name">Mrishika Nair</h1>
                 <hr style={{ width: '20%', border: '2px solid #A3B4D2', marginLeft:'410px' }} />
                 <p style={{ fontSize:'19px', marginTop: '100px' }}>
@@ -56,8 +58,8 @@ const Hero =() =>{
                   <a href="https://github.com/MrishikaNair">Github</a>
                 </p>
             </div>
-            <div>
-                <img src={Profilephoto} alt="Profile" className="profile-img" style={{marginTop:'80px',height:'100px', boxShadow: '0px 4px 10px rgba(0, 0, 0, 0.3)'}}/>
+            <div style={{  width:'40%' }}>
+                <img src={Profilephoto} alt="Profile" className="profile-img" style={{marginTop:'130px', boxShadow: '0px 4px 10px rgba(0, 0, 0, 0.3)'}}/>
             </div>
         </div>
       </section>
@@ -81,7 +83,7 @@ const Hero =() =>{
             <div className="scrollable-section" style={{ flex: '1', maxHeight: '170px', paddingLeft: '20px' }}>
             <ul style={{ listStyleType: 'disc',  fontSize: '30px', color: '#333', paddingTop:'20px',addingLeft: '20px'}}>
                 <li>08/24: Joined Intuitive Computing Lab at Johns Hopkins as a research assistant.</li>
-                <li>06/24: Published research as the first author in HCI International 2024</li>
+                <li>06/24: Published research as the first author in HCI International 2024: Geriatric accessible medicine packaging.</li>
                 <li>05/24: Graduated from IIIT Delhi in 2024, with distinction merit!</li>
                 <li>03/24: Accepted to Johns Hopkins University as a full-time grad student.</li>
                 <li>12/23: Joined iWayPlus as a Software developer intern.</li>
@@ -136,11 +138,11 @@ const Hero =() =>{
                         </p>
                     </div>
                     <div className="projectimage" style={{width:'30%'}}>
-                        <img src={RA} alt="RA" style={{height:'90%', marginTop:'-30px'}}/>
+                        <img src={RA} alt="RA"/>
                     </div>
                 </div>
                 <hr style={{ width: '100%', border: '1px solid #B3B5B7', marginLeft:'20px', marginTop:'50px' }} />
-                <div className="project" style={{height:'320px'}}>
+                <div className="project">
                     <div className="projectindex" style={{width:'10%'}}>02</div>
                     <div className="project-description" style={{width:'60%'}}>
                         <h3 style={{width:'600px', lineHeight:'1.2'}}>Inclusive Medicine Packaging for the Geriatric Population: Bridging Accessibility Gaps</h3>
@@ -150,12 +152,12 @@ const Hero =() =>{
                         </p>
                         <a href="https://link.springer.com/chapter/10.1007/978-3-031-61063-9_6" style={{color: '#4C86DC', marginBottom:'30px', fontSize: '20px'}}>Conference Paper</a>
                     </div>
-                    <div className="project-image" style={{width:'30%',maxHeight:'30px'}}>
-                        <img src={Medicine} alt="Medicine" style={{height:'920%'}} />
+                    <div className="project-image" style={{width:'30%'}}>
+                        <img src={Medicine} alt="Medicine" />
                     </div>
                 </div>
                 <hr style={{ width: '100%', border: '1px solid #B3B5B7', marginLeft:'20px', marginTop:'90px' }} />
-                <div className="project" style={{height:'330px'}}>
+                <div className="project">
                 <div className="projectindex" style={{width:'10%'}}>03</div>
                     <div className="project-description" style={{width:'60%'}}>
                         <h3 style={{width:'600px', lineHeight:'1.2'}}>Skyl - To empower India’s unorganized gig sector workers through skill development</h3>
@@ -169,7 +171,7 @@ const Hero =() =>{
                         <a href="https://github.com/MrishikaNair/SKYL_SP" style={{color: '#4C86DC', marginBottom:'30px', fontSize: '20px'}}>Github</a>
                     </div>
                     <div className="project-image" style={{width:'30%'}}>
-                        <img src={skyl} alt="Skyl" style={{height:'115%'}}/>
+                        <img src={skyl} alt="Skyl"/>
                     </div>
                 </div>
                 <hr style={{ width: '100%', border: '1px solid #B3B5B7', marginLeft:'20px', marginTop:'90px' }} />
@@ -192,7 +194,6 @@ const Hero =() =>{
                         <video 
                             src={videoSource} 
                             alt="Description of video" 
-                            style={{ height: '110%' }}
                             controls  // Adds playback controls
                             autoPlay  // Optional: plays video automatically
                             loop      // Optional: loops the video
@@ -215,7 +216,7 @@ const Hero =() =>{
                         <a href="https://github.com/CSE-333-Computer-Graphics-2022/Solid-Texture-Synthesis" style={{color: '#4C86DC', marginBottom:'30px', fontSize: '20px'}}>Github</a>
                     </div>
                     <div className="project-image" style={{width:'30%'}}>
-                        <img src={compattend} alt="Compattend" style={{paddingLeft:'20px',height:'110%'}} />
+                        <img src={compattend} alt="Compattend" style={{paddingLeft:'20px'}} />
                     </div>
                 </div>
                 <hr style={{ width: '100%', border: '1px solid #B3B5B7', marginLeft:'20px', marginTop:'100px' }} />
@@ -235,11 +236,11 @@ const Hero =() =>{
                     </div>
 
                     <div className="project-image" style={{width:'30%'}}>
-                        <img src={solid} alt="Solid" style={{paddingLeft:'20px',height:'100%'}} />
+                        <img src={solid} alt="Solid" style={{paddingLeft:'20px'}} />
                     </div>
                 </div>
                 <hr style={{ width: '100%', border: '1px solid #B3B5B7', marginLeft:'20px', marginTop:'30px' }} />
-                <div className="project" style={{height:'350px'}}>
+                <div className="project">
                 <div className="projectindex" style={{width:'10%'}}>07</div>
                     <div className="project-description" style={{width:'60%'}}>
                         <h3 style={{width:'600px', lineHeight:'1.2'}}>Soul</h3>
@@ -254,7 +255,7 @@ const Hero =() =>{
                         </p>
                     </div>
                     <div className="project-image" style={{width:'30%'}}>
-                        <img src={soul} alt="Soul"  style={{height:'130%', paddingLeft:'20px'}}/>
+                        <img src={soul} alt="Soul"  style={{paddingLeft:'20px'}}/>
                     </div>
                 </div>
                 <hr style={{ width: '100%', border: '1px solid #B3B5B7', marginLeft:'20px', marginTop:'70px' }} />
@@ -288,5 +289,7 @@ const Hero =() =>{
       </section>
     </div>
     )
+
 }
 export default Hero
+
