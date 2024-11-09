@@ -40,12 +40,12 @@ const Hero =() =>{
             <div style={{  width:'60%' }}>
                 <h1 className="name">Mrishika Nair</h1>
                 <hr style={{ width: '20%', border: '2px solid #A3B4D2', marginLeft:'410px' }} />
-                <p style={{ fontSize:'19px', marginTop: '100px' }}>
+                <p style={{ fontSize:'16px', marginTop: '100px' }}>
                     I am a Masters student at Johns Hopkins University, specializing in Computer Science. 
                     Driven by a desire to continuously learn and evolve, I am excited about exploring the 
                     intersection of AI, Computer Vision, and Human Computer Interaction to improve everyday lives.
                 </p>
-                <p style={{fontSize:'19px', marginTop: '20px' }}>
+                <p style={{fontSize:'16px', marginTop: '20px' }}>
                     Through my projects, I have aimed to create accessible and intuitive systems that bridge 
                     the gap between technology and user needs. I envision a future where technology not only 
                     optimizes processes but also fosters inclusivity, ensuring that individuals from all backgrounds 
@@ -83,7 +83,7 @@ const Hero =() =>{
             <div className="scrollable-section" style={{ flex: '1', maxHeight: '170px', paddingLeft: '20px' }}>
             <ul style={{ listStyleType: 'disc',  fontSize: '30px', color: '#333', paddingTop:'20px',addingLeft: '20px'}}>
                 <li>08/24: Joined Intuitive Computing Lab at Johns Hopkins as a research assistant.</li>
-                <li>06/24: Published research as the first author in HCI International 2024: Geriatric accessible medicine packaging.</li>
+                <li>06/24: Published research as the first author in HCI International 2024.</li>
                 <li>05/24: Graduated from IIIT Delhi in 2024, with distinction merit!</li>
                 <li>03/24: Accepted to Johns Hopkins University as a full-time grad student.</li>
                 <li>12/23: Joined iWayPlus as a Software developer intern.</li>
@@ -129,22 +129,22 @@ const Hero =() =>{
             <h2 style={{color: '#5A668C', fontSize: '3.5rem'}}>Projects</h2>
             <div className="project-grid">
                 <div className="project">
-                    <div className="projectindex" style={{width:'10%'}}>01</div>
-                    <div className="project-description" style={{width:'60%'}}>
+                    <div className="projectindex" style={{width:'5%'}}>01</div>
+                    <div className="project-description" style={{width:'50%'}}>
                         <h3 style={{width:'600px', lineHeight:'1.2'}}>LLM powered voice assistants for elderly health management</h3>
                         <p>
                         Developing personalised voice assistants to support elderly healthcare management. A web application that enables users to upload prescriptions (PNG/PDF), leveraging OCR for targeted text extraction from regions of interest. The extracted text is processed with a language model to generate after-visit summaries and health guidelines.
                         Integrated with GPT and Alexa sdk for enabling easy voice driven interactions and reminders
                         </p>
                     </div>
-                    <div className="projectimage" style={{width:'30%'}}>
+                    <div className="projectimage" style={{width:'35%'}}>
                         <img src={RA} alt="RA"/>
                     </div>
                 </div>
                 <hr style={{ width: '100%', border: '1px solid #B3B5B7', marginLeft:'20px', marginTop:'50px' }} />
                 <div className="project">
-                    <div className="projectindex" style={{width:'10%'}}>02</div>
-                    <div className="project-description" style={{width:'60%'}}>
+                    <div className="projectindex" style={{width:'5%'}}>02</div>
+                    <div className="project-description" style={{width:'50%'}}>
                         <h3 style={{width:'600px', lineHeight:'1.2'}}>Inclusive Medicine Packaging for the Geriatric Population: Bridging Accessibility Gaps</h3>
                         <p>
                         Redesigned medicine packaging with augmented QR codes with Text-to-speech conversion of medicine info to enhance accessibility for the geriatric population, targeting visual impairments and diminished tactile sensitivities. Conducted and expansive user study and developed a complementary app to help elderly individuals manage their medication regimen.
@@ -152,14 +152,14 @@ const Hero =() =>{
                         </p>
                         <a href="https://link.springer.com/chapter/10.1007/978-3-031-61063-9_6" style={{color: '#4C86DC', marginBottom:'30px', fontSize: '20px'}}>Conference Paper</a>
                     </div>
-                    <div className="project-image" style={{width:'30%'}}>
+                    <div className="project-image" style={{width:'35%'}}>
                         <img src={Medicine} alt="Medicine" />
                     </div>
                 </div>
                 <hr style={{ width: '100%', border: '1px solid #B3B5B7', marginLeft:'20px', marginTop:'90px' }} />
                 <div className="project">
-                <div className="projectindex" style={{width:'10%'}}>03</div>
-                    <div className="project-description" style={{width:'60%'}}>
+                <div className="projectindex" style={{width:'5%'}}>03</div>
+                    <div className="project-description" style={{width:'50%'}}>
                         <h3 style={{width:'600px', lineHeight:'1.2'}}>Skyl - To empower India’s unorganized gig sector workers through skill development</h3>
                         <p>
                         Developed a crowd-sourced platform - Skyl, to empower India’s unorganized gig sector workers through skill development. 
@@ -170,14 +170,14 @@ const Hero =() =>{
                         </p>
                         <a href="https://github.com/MrishikaNair/SKYL_SP" style={{color: '#4C86DC', marginBottom:'30px', fontSize: '20px'}}>Github</a>
                     </div>
-                    <div className="project-image" style={{width:'30%'}}>
+                    <div className="project-image" style={{width:'35%'}}>
                         <img src={skyl} alt="Skyl"/>
                     </div>
                 </div>
                 <hr style={{ width: '100%', border: '1px solid #B3B5B7', marginLeft:'20px', marginTop:'90px' }} />
                 <div className="project">
-                <div className="projectindex" style={{width:'10%'}}>04</div>
-                    <div className="project-description" style={{width:'60%'}}>
+                <div className="projectindex" style={{width:'5%'}}>04</div>
+                    <div className="project-description" style={{width:'50%'}}>
                         <h3 style={{width:'600px', lineHeight:'1.2'}}>AnatoVR - B.Tech thesis</h3>
                         <p>
                         Developed a medical dissection VR training experience for medical students to explore and understand frog anatomy and simulate
@@ -190,7 +190,7 @@ const Hero =() =>{
                         <a href="https://github.com/MrishikaNair/AnatoVR-Dissection-training-BTP" style={{color: '#4C86DC', marginBottom:'30px', fontSize: '20px'}}>Github</a>
                     </div>
                     {/* <div className="project-image" style={{width:'30%'}}> */}
-                    <div className="project-video" style={{ width: '30%' }}>
+                    <div className="project-video" style={{ width: '35%' }}>
                         <video 
                             src={videoSource} 
                             alt="Description of video" 
@@ -205,8 +205,8 @@ const Hero =() =>{
                 </div>
                 <hr style={{ width: '100%', border: '1px solid #B3B5B7', marginLeft:'20px', marginTop:'50px' }} />
                 <div className="project">
-                <div className="projectindex" style={{width:'10%'}}>05</div>
-                    <div className="project-description" style={{width:'60%'}}>
+                <div className="projectindex" style={{width:'5%'}}>05</div>
+                    <div className="project-description" style={{width:'50%'}}>
                         <h3 style={{width:'600px', lineHeight:'1.2'}}>Compattend - Facial Recognition System with CNN and FaceNet Integration</h3>
                         <p>
                         Developed a facial recognition app leveraging a combination of Convolutional Neural Networks (CNN) and the FaceNet model for accurate 
@@ -215,14 +215,14 @@ const Hero =() =>{
                         </p>
                         <a href="https://github.com/CSE-333-Computer-Graphics-2022/Solid-Texture-Synthesis" style={{color: '#4C86DC', marginBottom:'30px', fontSize: '20px'}}>Github</a>
                     </div>
-                    <div className="project-image" style={{width:'30%'}}>
+                    <div className="project-image" style={{width:'35%'}}>
                         <img src={compattend} alt="Compattend" style={{paddingLeft:'20px'}} />
                     </div>
                 </div>
                 <hr style={{ width: '100%', border: '1px solid #B3B5B7', marginLeft:'20px', marginTop:'100px' }} />
                 <div className="project">
-                <div className="projectindex" style={{width:'10%'}}>06</div>
-                    <div className="project-description" style={{width:'60%'}}>
+                <div className="projectindex" style={{width:'5%'}}>06</div>
+                    <div className="project-description" style={{width:'50%'}}>
                         <h3 style={{width:'600px', lineHeight:'1.2'}}>Solid Texture Synthesis</h3>
                         <p>
                         Implemented a method for realistic 3D texture synthesis by transforming 2D exemplars into detailed solid textures, 
@@ -235,14 +235,14 @@ const Hero =() =>{
                         <a href="https://github.com/CSE-333-Computer-Graphics-2022/Solid-Texture-Synthesis" style={{color: '#4C86DC', marginBottom:'30px', fontSize: '20px'}}>Github</a>
                     </div>
 
-                    <div className="project-image" style={{width:'30%'}}>
+                    <div className="project-image" style={{width:'35%'}}>
                         <img src={solid} alt="Solid" style={{paddingLeft:'20px'}} />
                     </div>
                 </div>
                 <hr style={{ width: '100%', border: '1px solid #B3B5B7', marginLeft:'20px', marginTop:'30px' }} />
                 <div className="project">
-                <div className="projectindex" style={{width:'10%'}}>07</div>
-                    <div className="project-description" style={{width:'60%'}}>
+                <div className="projectindex" style={{width:'5%'}}>07</div>
+                    <div className="project-description" style={{width:'50%'}}>
                         <h3 style={{width:'600px', lineHeight:'1.2'}}>Soul</h3>
                         <p>
                         "Soul" is an immersive Augmented Reality <strong>(AR) microlearning experience</strong> rooted in Indic wisdom (Betaal Pachisi). Users engage 
@@ -254,7 +254,7 @@ const Hero =() =>{
                             <strong>Awarded best project recognition.</strong>
                         </p>
                     </div>
-                    <div className="project-image" style={{width:'30%'}}>
+                    <div className="project-image" style={{width:'35%'}}>
                         <img src={soul} alt="Soul"  style={{paddingLeft:'20px'}}/>
                     </div>
                 </div>
@@ -266,7 +266,7 @@ const Hero =() =>{
 
       <section className="affiliations" >
         <div style={{ marginRight: '30px', marginTop:'130px'}}>
-            <h2 style={{color: '#8995AA', marginBottom:'70px'}}>Affiliations</h2>
+            <h2 style={{color: '#2b3967', marginBottom:'70px'}}>Affiliations</h2>
                 <div className="affiliationgrid" style={{ display: 'flex', flexDirection: 'column', gap: '40px', paddingTop:'50px',paddingLeft:'140px',paddingRight:'140px'}}>
                     {/* Row 1 */}
                     <div className="affrow" style={{ display: 'flex',flexDirection: 'row',justifyContent: 'space-between'}}>
