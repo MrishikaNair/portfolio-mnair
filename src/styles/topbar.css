@@ -56,8 +56,6 @@ body, html {
   }
   
   .profile .profile-img {
-    width: auto;
-    height: 650px;
     border: 2px solid #ddd;
   }
   
