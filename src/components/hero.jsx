@@ -39,7 +39,6 @@ const Hero =() =>{
             fontSize: '20px', paddingLeft:'50px', paddingRight:'100px', width: '100%'}}>
             <div style={{  width:'60%' }}>
                 <h1 className="name">Mrishika Nair</h1>
-                <hr style={{ width: '20%', border: '2px solid #A3B4D2', marginLeft:'410px' }} />
                 <p style={{ fontSize:'16px', marginTop: '100px' }}>
                     I am a Masters student at Johns Hopkins University, specializing in Computer Science. 
                     Driven by a desire to continuously learn and evolve, I am excited about exploring the 
