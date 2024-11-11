@@ -15,11 +15,12 @@ body, html {
   
   /* Profile Section */
   .profile {
-    text-align: left;
-    margin-bottom: 30px;
     background-color: #f0f4f8; /* Light blue background color for profile section */
-    padding: 60px; /* Section padding */
-    border-radius: 8px; /* Optional: Rounded corners */
+    display: flex;
+    flex-Direction: column;
+    text-Align: left;
+    padding: 60px; 
+    padding-bottom:10px;
   }
   
   .profile .name {
@@ -57,8 +58,11 @@ body, html {
   
   .profile .profile-img {
     border: 2px solid #ddd;
+    margin-Top:130px;
+    box-Shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+    
+
   }
-  
   /* Milestones Section */
   .milestones {
     background-color: #ffffff; /* Gray background color for milestones section */
@@ -83,7 +87,7 @@ body, html {
     font-size: 1.2rem;
     color: #555;
     margin-bottom: 10px;
-    line-height: 0.08;
+    line-height: 1.3rem;;
     font-weight:'350',
   }
 
@@ -164,6 +168,7 @@ body, html {
     font-size: 3.5rem;
     font-weight:500;
     color: #2b3967;
+    line-height: 3.5rem;
     margin-bottom: 85px;
   }
 
@@ -248,3 +253,5 @@ body, html {
     margin: 0; /* Removes any default margin */
     padding: 0; /* Removes any default padding */
   };
+
+
