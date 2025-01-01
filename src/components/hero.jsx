@@ -59,7 +59,7 @@ const Hero =() =>{
                     fontSize: '20px',  width: '100%'}}>
                     <div style={{  width:'60%' }}>
                         
-                        <p style={{ fontSize:'20px', marginTop: '80px' }}>
+                        <p style={{ fontSize:'17px', marginTop: '80px' }}>
                         I am a Master's student in Computer Science at the Whiting School of Engineering, Johns Hopkins University. I am affiliated with the Intuitive Computing lab at Johns Hopkins.
                             Driven by a desire to continuously learn and evolve, I am excited about exploring the 
                             intersection of AI, Natural Language Processing, and Human Computer Interaction to improve everyday lives.
@@ -83,7 +83,7 @@ const Hero =() =>{
                         alt="Profile" 
                         className="profile-img" 
                         style={{
-                            height:'400px',
+                            height:'370px',
                             marginTop:'30px', 
                             boxShadow: '0px 4px 10px rgba(0, 0, 0, 0.3)',
                             borderRadius: '0%', // default border radius
@@ -100,7 +100,7 @@ const Hero =() =>{
                 <div>
                     <h2 style={{ fontSize: '3rem', color: '#5A668C', marginBottom: '100px', paddingTop:'120px'}}>Milestones</h2>
                     <div className="scrollable-section" style={{ flex: '1', maxHeight: '210px', paddingLeft: '20px' }}>
-                    <ul style={{ listStyleType: 'disc',  fontSize: '30px', color: '#333', paddingTop:'20px',addingLeft: '20px'}}>
+                    <ul style={{ listStyleType: 'disc',  fontSize: '20px', color: '#333', paddingTop:'20px',addingLeft: '20px'}}>
                         <li>08/24: Joined Intuitive Computing Lab at Johns Hopkins as a research assistant.</li>
                         <li>06/24: Published research as the first author in HCI International 2024.</li>
                         <li>05/24: Graduated from IIIT Delhi in 2024, with distinction merit!</li>
