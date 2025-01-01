@@ -100,7 +100,7 @@ const Hero =() =>{
                 <div>
                     <h2 style={{ fontSize: '3rem', color: '#5A668C', marginBottom: '100px', paddingTop:'120px'}}>Milestones</h2>
                     <div className="scrollable-section" style={{ flex: '1', maxHeight: '210px', paddingLeft: '20px' }}>
-                    <ul style={{ listStyleType: 'disc',  fontSize: '17px', color: '#333', paddingTop:'20px',addingLeft: '20px'}}>
+                    <ul style={{ listStyleType: 'disc',  fontSize: '15px', color: '#333', paddingTop:'20px',paddingLeft: '20px'}}>
                         <li>08/24: Joined Intuitive Computing Lab at Johns Hopkins as a research assistant.</li>
                         <li>06/24: Published research as the first author in HCI International 2024.</li>
                         <li>05/24: Graduated from IIIT Delhi in 2024, with distinction merit!</li>
