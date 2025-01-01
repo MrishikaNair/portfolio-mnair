@@ -19,6 +19,7 @@ import malone from '../images/malone.png'
 import inno from '../images/inno.png'
 import weave from '../images/weave.png'
 import videoSource from '../images/VR_demo.mp4'
+import carla_video from '../images/ML-DL-Fall2024-ProjectVideo.mp4'
 
 
 const Hero =() =>{
@@ -161,7 +162,33 @@ const Hero =() =>{
                         <div className="project" style={{gap:'40px', display:'flex'}}>
                             {/* <div className="projectindex" style={{width:'5%'}}>01</div> */}
                             <div className="project-description" style={{width:'60%'}}>
-                                <h3 style={{lineHeight:'1.2'}}>01. LLM powered voice assistants for elderly health management</h3>
+                                <h3 style={{lineHeight:'1.2'}}>01. Pathfinding Autonomous Agents in Dynamic Environments</h3>
+                                <p>
+                                Developed a semi-supervised reinforcement learning framework using the CARLA Simulator to train agents for real-time 
+                                pathfinding tasks in dynamic urban environments. Integrated Proximal Policy Optimization (PPO) with intrinsic reward 
+                                signals to promote curiosity based learning and optimise decision making in complex navigation. Used distributed pipelines 
+                                for processing high-dimensional sensor data(LiDAR, RGB, GPS) , optimizing learning efficiency and increased robustness.
+                                </p>
+                            </div>
+                            <div className="project-video" style={{ width: '35%' }}>
+                                <video 
+                                    src={carla_video} 
+                                    alt="Description of video" 
+                                    controls  // Adds playback controls
+                                    autoPlay  // Optional: plays video automatically
+                                    loop      // Optional: loops the video
+                                    muted     // Optional: mutes audio for autoplay
+                                />
+                                {/* <img src={vr} alt="Description of image 4" style={{height:'110%'}}/> */}
+                            </div>
+                            
+                        </div>
+                        <hr style={{ width: '100%', border: '1px solid #B3B5B7', marginLeft:'20px', marginTop:'50px' }} />
+                        
+                        <div className="project" style={{gap:'40px', display:'flex'}}>
+                            {/* <div className="projectindex" style={{width:'5%'}}>01</div> */}
+                            <div className="project-description" style={{width:'60%'}}>
+                                <h3 style={{lineHeight:'1.2'}}>02. LLM powered voice assistants for elderly health management</h3>
                                 <p>
                                 Developing personalised voice assistants to support elderly healthcare management. A web application that enables users to upload prescriptions, leveraging OCR for targeted text extraction from regions of interest. The extracted text is processed with a language model to generate after-visit summaries and health guidelines.
                                 Integrated with GPT and Alexa sdk for enabling easy voice driven interactions and reminders.
@@ -174,7 +201,7 @@ const Hero =() =>{
                         <hr style={{ width: '100%', border: '1px solid #B3B5B7', marginLeft:'20px', marginTop:'50px' }} />
                         <div className="project" style={{gap:'40px', display:'flex'}}>
                             <div className="project-description" style={{width:'60%'}}>
-                                <h3 style={{lineHeight:'1.2'}}>02. Inclusive Medicine Packaging for the Geriatric Population: Bridging Accessibility Gaps</h3>
+                                <h3 style={{lineHeight:'1.2'}}>03. Inclusive Medicine Packaging for the Geriatric Population: Bridging Accessibility Gaps</h3>
                                 <p>
                                 Redesigned medicine packaging with augmented QR codes with Text-to-speech conversion of medicine info to enhance accessibility for the geriatric population, targeting visual impairments and diminished tactile sensitivities. Conducted and expansive user study and developed a complementary app to help elderly individuals manage their medication regimen.
                                 The new prototype reduced the time to analyse the medicine info by 80%, and accuracy in identifying the medicine increased to 96%.
@@ -188,7 +215,7 @@ const Hero =() =>{
                         <hr style={{ width: '100%', border: '1px solid #B3B5B7', marginLeft:'20px', marginTop:'90px' }} />
                         <div className="project" style={{gap:'40px', display:'flex'}}>
                             <div className="project-description" style={{width:'60%'}}>
-                                <h3 style={{lineHeight:'1.2'}}>03. Skyl</h3>
+                                <h3 style={{lineHeight:'1.2'}}>04. Skyl</h3>
                                 <p>
                                 Developed a crowd-sourced platform - Skyl, to empower India’s unorganized gig sector workers through skill development. 
                                 Implemented personalized course recommendation algorithms based on customer review analytics, facilitating targeted upskilling 
@@ -205,7 +232,7 @@ const Hero =() =>{
                         <hr style={{ width: '100%', border: '1px solid #B3B5B7', marginLeft:'20px', marginTop:'90px' }} />
                         <div className="project" style={{gap:'40px', display:'flex'}}>
                             <div className="project-description" style={{width:'60%'}}>
-                                <h3 style={{width:'600px', lineHeight:'1.2'}}>04. AnatoVR - B.Tech thesis</h3>
+                                <h3 style={{width:'600px', lineHeight:'1.2'}}>05. AnatoVR - B.Tech thesis</h3>
                                 <p>
                                 Developed a medical dissection VR training experience for medical students to explore and understand frog anatomy and simulate
                                 the process of dissection realistically with <strong>precision handling close to ±0.5 cm</strong> of tools virtually. Reduced the need for physical 
@@ -233,7 +260,7 @@ const Hero =() =>{
                         <hr style={{ width: '100%', border: '1px solid #B3B5B7', marginLeft:'20px', marginTop:'50px' }} />
                         <div className="project" style={{gap:'40px', display:'flex'}}>
                             <div className="project-description" style={{width:'60%'}}>
-                                <h3 style={{lineHeight:'1.2'}}>05. Compattend - Facial Recognition System with CNN and FaceNet Integration</h3>
+                                <h3 style={{lineHeight:'1.2'}}>06. Compattend - Facial Recognition System with CNN and FaceNet Integration</h3>
                                 <p>
                                 Developed a facial recognition app leveraging a combination of Convolutional Neural Networks (CNN) and the FaceNet model for accurate 
                                 face detection and recognition, achieving a <strong>test accuracy of 92%</strong>. Integrated with Google Classroom's API for automated attendance 
@@ -249,7 +276,7 @@ const Hero =() =>{
                         <div className="project" style={{gap:'40px', display:'flex'}}>
                         
                             <div className="project-description" style={{width:'60%'}}>
-                                <h3 style={{lineHeight:'1.2'}}>06. Solid Texture Synthesis</h3>
+                                <h3 style={{lineHeight:'1.2'}}>07. Solid Texture Synthesis</h3>
                                 <p>
                                 Implemented a method for realistic 3D texture synthesis by transforming 2D exemplars into detailed solid textures, 
                                 applying <strong>stochastic sampling and histogram matching</strong> for optimal visual similarity to the source texture. The approach 
@@ -269,7 +296,7 @@ const Hero =() =>{
                         <div className="project" style={{gap:'40px', display:'flex'}}>
                         
                             <div className="project-description" style={{width:'60%'}}>
-                                <h3 style={{lineHeight:'1.2'}}>07. Soul</h3>
+                                <h3 style={{lineHeight:'1.2'}}>08. Soul</h3>
                                 <p>
                                 "Soul" is an immersive Augmented Reality <strong>(AR) microlearning experience</strong> rooted in Indic wisdom (Betaal Pachisi). Users engage 
                                 with an avatar representing the human soul, fostering impactful decision-making and personal growth. Through the stories 
