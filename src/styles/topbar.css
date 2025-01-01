@@ -189,7 +189,7 @@ body, html {
   }
 
   .research p{
-    font-size: 1rem;
+    font-size: 17px;
     color: #555;
     padding-top:20px;
   }
@@ -227,13 +227,13 @@ body, html {
   }
   
   .project h3 {
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     color: #4a4a4a;
     margin-bottom: 30px;
   }
   
   .project p {
-    font-size: 1.2rem;
+    font-size: 1rem;
     color: #666;
     line-height: 1.6;
   }
@@ -251,7 +251,7 @@ body, html {
   }
 
   .research p{
-    font-size: 1.2rem;
+    font-size: 1rem;
     color: #555;
     padding-top:20px;
   }
