@@ -56,10 +56,10 @@ const Hero =() =>{
             <section className="profile">
                 <h1 className="name">Mrishika Nair</h1>
                 <div className="flex flex-col md:flex-row items" style={{ display: 'flex-col', justifyContent: 'space-between',gap:'60px' ,
-                    fontSize: '20px',  width: '100%'}}>
+                    fontSize: '18px',  width: '100%'}}>
                     <div style={{  width:'60%' }}>
                         
-                        <p style={{ fontSize:'17px', marginTop: '80px' }}>
+                        <p style={{ fontSize:'15px', marginTop: '80px' }}>
                         I am a Master's student in Computer Science at the Whiting School of Engineering, Johns Hopkins University. I am affiliated with the Intuitive Computing lab at Johns Hopkins.
                             Driven by a desire to continuously learn and evolve, I am excited about exploring the 
                             intersection of AI, Natural Language Processing, and Human Computer Interaction to improve everyday lives.
