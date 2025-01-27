@@ -75,7 +75,7 @@ const Hero =() =>{
                         <a href="mrishnair@gmail.com">Email</a> &nbsp;&nbsp;&nbsp;&nbsp;/&nbsp;&nbsp;&nbsp;&nbsp;
                         <a href="https://drive.google.com/file/d/1M-sBl6VgeJkGhzPSU3AWSOPPOlmKuM2w/view?usp=sharing">CV</a> &nbsp;&nbsp;&nbsp;/&nbsp;&nbsp;&nbsp;&nbsp;
                         <a href="https://www.linkedin.com/in/mrishika-nair/">LinkedIn</a> &nbsp;&nbsp;&nbsp;/&nbsp;&nbsp;&nbsp;&nbsp;
-                        <a href="https://github.com/MrishikaNair">Github</a>
+                        <a href="https://github.com/MrishikaNair">Github</a> &nbsp;&nbsp;&nbsp;/&nbsp;&nbsp;&nbsp;&nbsp;
                         <a href="https://www.behance.net/gallery/188545423/Portfolio">Behance</a>
                         </p>
                     </div>
