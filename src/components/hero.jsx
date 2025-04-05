@@ -62,14 +62,13 @@ const Hero =() =>{
                         
                         <p style={{ fontSize:'15px', marginTop: '80px' }}>
                         I am a Master's student in Computer Science at the Whiting School of Engineering, Johns Hopkins University. I am affiliated with the Intuitive Computing lab at Johns Hopkins.
-                            Driven by a desire to continuously learn and evolve, I am excited about exploring the 
-                            intersection of AI, Natural Language Processing, and Human Computer Interaction to improve everyday lives.
+                        My work focuses on AI, Natural Language Processing, and Human-Computer Interaction to create accessible and intuitive technology to improve everyday lives.
+                        
                         {/* </p>
                         <p style={{fontSize:'18px', marginTop: '20px' }}> */}
-                            Through my projects, I have aimed to create accessible and intuitive systems that bridge 
-                            the gap between technology and user needs. I envision a future where technology not only 
-                            optimizes processes but also fosters inclusivity, ensuring that individuals from all backgrounds 
-                            and abilities can fully benefit from advancements in this dynamic field.
+                            I envision a future where technology not only 
+                            optimizes processes but also fosters inclusivity, ensuring that individuals of all abilities can fully benefit from advancements in this dynamic field. 
+                            Ultimately, technology should be a bridge, not a barrier.
                         </p>
                         <p style={{color:'#4C86DC',marginTop:'30px'}}>
                         <a href="mrishnair@gmail.com">Email</a> &nbsp;&nbsp;&nbsp;&nbsp;/&nbsp;&nbsp;&nbsp;&nbsp;
@@ -133,9 +132,9 @@ const Hero =() =>{
                     {/* Add research experience details here */}
                     <p>
                     At Johns Hopkins University's <a href='https://intuitivecomputing.github.io/' style={{color: "#3D8BF2"}}>Intuitive Computing Lab</a>, I work as a graduate research assistant. Our lab focuses 
-                    on HCI, AI, and robotics, emphasising human-robot interaction, speech interfaces, 
-                    and human-centred AI. My main research involves leveraging large language models to enhance personalised speech 
-                    interfaces and minimise interaction challenges in HCI.
+                    on HCI, AI, and robotics, emphasising human-robot interaction, conversational agents, 
+                    and human-centred AI. My main research involves leveraging large language models to enhance personalised voice assistants 
+                    to enhance medication literacy.
                     </p>
                     <p>
                     I previously worked as an undergraduate researcher in the <a href='https://cilab.iiitd.edu.in/' style={{color: "#3D8BF2"}}>Creative Interfaces Lab</a>, where I worked on VR and AR 
@@ -145,9 +144,8 @@ const Hero =() =>{
                     </p>
                     <p>
                     Additionally, my experience as an HCI researcher in the <a href='https://aidlab.iiitd.edu.in/' style={{color: "#3D8BF2"}}>Accessible and Inclusive Design Lab</a> emphasised creating 
-                    inclusive, empowering solutions to support independent living for individuals with special needs. Collectively, 
-                    these experiences shape my commitment to building intuitive, impactful technologies that address diverse user 
-                    needs in meaningful ways.
+                    inclusive, empowering solutions to support independent living for all age groups. These experiences have shaped my commitment to building intuitive, impactful technologies that address diverse user 
+                    needs.
                     </p>
                 </div>
                 {/* <div style={{width:'40%', alignItems:'end', marginLeft: '70px' }}>
